@@ -34,10 +34,16 @@ git branch
 git checkout -b NAME
 ```
 
-### navegar para um branch branches
+### navegar para uma branch branches
 ```bash
 # sendo NAME o nome da sua branch
 git checkout NAME
+```
+
+### renomear uma branch branch
+```bash
+# sendo NAME o nome da sua branch
+git branch -m NAME
 ```
 
 ### merjar branch
